@@ -14,7 +14,7 @@ pipeline {
     OPENSHIFT_CREDENTIALS = "ocp-wallettest" // jenkins credentials to login ocp
     OPENSHIFT_DEPLOY_NAME = "${params.ServiceChoice}"
     VERSION = "${params.choiceVersion}"
-    DOCKER_URL = "registry.fraud.com/" //external fraud repo url
+    DOCKER_URL = "xxxxxxx" //external fraud repo url
   }
 
   stages {
